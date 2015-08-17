@@ -38,7 +38,6 @@ project(':web') {
 	
 
 	repositories {
-		mavenCentral()
 		maven {
 			url binaryRepositoryJCenterLocalUrl
 			credentials {
@@ -53,9 +52,8 @@ project(':web') {
 				password = binaryRepositoryPassword
 			}
 		}
-	    jcenter()
-		
-		maven { url "http://repo.maven.apache.org/maven2" }
+		jcenter()
+		mavenCentral()
 	}
 
 	dependencies {
