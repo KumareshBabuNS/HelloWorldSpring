@@ -24,13 +24,13 @@ project(':web') {
 	apply plugin: 'pmd'
 	apply plugin: "jdepend"
 	apply plugin: 'sonar-runner'
-	sonarRunner {
-		toolVersion = "2.4"
-		// Fine grained control over the runner process
-		forkOptions {
-		  maxHeapSize = '1024m'
-		}
-	}
+//	sonarRunner {
+//		toolVersion = "2.4"
+//		// Fine grained control over the runner process
+//		forkOptions {
+//		  maxHeapSize = '1024m'
+//		}
+//	}
 
 	apply plugin: 'maven'
 	apply plugin: 'maven-publish'
