@@ -39,13 +39,13 @@ project(':web') {
 
 	repositories {
 		//mavenCentral()
-		maven {
-			url binaryRepositoryJCenterLocalUrl
-			credentials {
-				username = binaryRepositoryUserName
-				password = binaryRepositoryPassword
-			}
-		}
+		//maven {
+		//	url binaryRepositoryJCenterLocalUrl
+		//	credentials {
+		//		username = binaryRepositoryUserName
+		//		password = binaryRepositoryPassword
+		//	}
+		//}
 		maven {
 			url binaryRepositoryMavenLocalUrl
 			credentials {
