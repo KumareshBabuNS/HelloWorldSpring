@@ -23,14 +23,14 @@ buildscript {
 			password = binaryRepositoryPassword
 		}
 	}
-	maven {
-		url binaryRepositoryMavenLocalUrl
-		credentials {
-			username = binaryRepositoryUserName
-			password = binaryRepositoryPassword
-		}
-	}
-	
+	//maven {
+	//	url binaryRepositoryMavenLocalUrl
+	//	credentials {
+	//		username = binaryRepositoryUserName
+	//		password = binaryRepositoryPassword
+	//	}
+	//}
+	mavenLocal()
 	//jcenter()
     	//mavenCentral()
     }
