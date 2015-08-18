@@ -46,13 +46,13 @@ project(':web') {
 		//		password = binaryRepositoryPassword
 		//	}
 		//}
-		maven {
-			url binaryRepositoryMavenLocalUrl
-			credentials {
-				username = binaryRepositoryUserName
-				password = binaryRepositoryPassword
-			}
-		}
+		//maven {
+		//	url binaryRepositoryMavenLocalUrl
+		//	credentials {
+		//		username = binaryRepositoryUserName
+		//		password = binaryRepositoryPassword
+		//	}
+		//}
 		//jcenter()
 		//mavenCentral()
 	}
