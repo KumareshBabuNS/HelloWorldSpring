@@ -53,7 +53,7 @@ project(':web') {
 				password = binaryRepositoryPassword
 			}
 		}
-		//jcenter()
+		jcenter()
 		//mavenCentral()
 	}
 
