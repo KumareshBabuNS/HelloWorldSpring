@@ -38,6 +38,7 @@ project(':web') {
 	
 
 	repositories {
+		mavenCentral()
 		maven {
 			url binaryRepositoryJCenterLocalUrl
 			credentials {
@@ -53,7 +54,7 @@ project(':web') {
 			}
 		}
 		jcenter()
-		mavenCentral()
+		//mavenCentral()
 	}
 
 	dependencies {
