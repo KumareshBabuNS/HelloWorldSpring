@@ -29,7 +29,6 @@ buildscript {
 
     dependencies {
         classpath 'com.bmuschko:gradle-cargo-plugin:2.1.1'
-        testCompile 'junit:junit:4.10'
     }
 }
 
