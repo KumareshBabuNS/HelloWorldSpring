@@ -53,8 +53,8 @@ project(':web') {
 				password = binaryRepositoryPassword
 			}
 		}
-		jcenter()
-		//mavenCentral()
+		//jcenter()
+		mavenCentral()
 	}
 
 	dependencies {
@@ -65,7 +65,6 @@ project(':web') {
 		compile 'org.springframework:spring-webmvc:4.2.0.RELEASE'
 		runtime 'javax.servlet:jstl:1.1.2'
 		
-		testCompile 'junit:junit:4.10'
 		compile 'org.seleniumhq.selenium:selenium-java:2.46.0'
 		compile 'org.testng:testng:6.8'
         }
