@@ -17,24 +17,14 @@ ext.config = parsedConfig
 buildscript {
     repositories {
 	maven {
-		url binaryRepositoryJCenterLocalUrl
+		url jCenterLocalPath
 		credentials {
-			username = binaryRepositoryUserName
-			password = binaryRepositoryPassword
+			username = repoUserName
+			password = repoPassword
 		}
 	}
-	//maven {
-	//	url binaryRepositoryMavenLocalUrl
-	//	credentials {
-	//		username = binaryRepositoryUserName
-	//		password = binaryRepositoryPassword
-	//	}
-	//}
-	mavenLocal()
-	//jcenter()
-    	//mavenCentral()
+	jcenter()
     }
-
     dependencies {
         classpath 'com.bmuschko:gradle-cargo-plugin:2.1.1'
     }
