@@ -175,7 +175,6 @@ project(':web') {
 	task functionalTest(type: Test) {
 		testClassesDir = sourceSets.functionalTest.output.classesDir
 		classpath = sourceSets.functionalTest.runtimeClasspath
-    		}
 	}
 }
 
