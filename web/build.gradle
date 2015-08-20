@@ -7,7 +7,6 @@ project(':web') {
 	apply plugin: 'war'
 	apply plugin: 'sonar-runner'
 	sonarRunner {
-		skipProject = true
 		forkOptions {
 			maxHeapSize = '512m'
 		}
