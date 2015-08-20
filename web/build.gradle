@@ -7,9 +7,10 @@ project(':web') {
 	apply plugin: 'war'
 	apply plugin: 'sonar-runner'
 	sonarRunner {
-	    forkOptions {
-	        maxHeapSize = '512m'
-	    }
+		skipProject = true
+		forkOptions {
+			maxHeapSize = '512m'
+		}
 	}
 	apply plugin: 'maven'
 	apply plugin: 'maven-publish'
