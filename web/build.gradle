@@ -16,8 +16,8 @@ project(':web') {
 	apply plugin: 'com.bmuschko.cargo'
 	
 	repositories {
-		mavenLocal()
-		//mavenCentral()
+		//mavenLocal()
+		mavenCentral()
 	}
 
 	dependencies {
