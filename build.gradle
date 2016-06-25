@@ -1,5 +1,5 @@
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.5'
+    gradleVersion = '2.14'
 }
 
 allprojects {
@@ -22,6 +22,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.bmuschko:gradle-cargo-plugin:2.1.1'
+        classpath 'org.cloudfoundry:cf-gradle-plugin:1.1.2'
     }
 }
 
