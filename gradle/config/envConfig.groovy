@@ -54,5 +54,15 @@ prod {
 			username = 'tomcat'
 			password = 's3cret'
 		}
+		cf {
+			target = 'https://api.run.pivotal.io'
+      			space = 'development'
+      			baseUri='cfapps.io'
+      			instanceMemory='512'
+      			instances='1'
+		}
+		
+	}
+
 	}
 }
