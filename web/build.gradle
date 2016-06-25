@@ -14,6 +14,7 @@ project(':web') {
 	apply plugin: 'maven'
 	apply plugin: 'maven-publish'
 	apply plugin: 'com.bmuschko.cargo'
+	apply plugin: 'cloudfoundry'
 	
 	repositories {
 		//mavenLocal()
@@ -181,6 +182,19 @@ project(':web') {
 		testClassesDir = sourceSets.functionalTest.output.classesDir
 		classpath = sourceSets.functionalTest.runtimeClasspath
 	}
+	
+	cloudfoundry {
+	      target = config.cf.target
+	      space = config.cf.space
+	      application = appName
+	      def fileName = appName+"-"+version
+	      def filePath = "$buildDir/libs/$fileName"+".war"
+	      file = new File ("$buildDir/libs/$fileName"+".war")
+	      uri = appName+"." + config.cf.baseUri
+	      memory = defaultMemory.toInteger()
+	      instances = defaultInstances.toInteger()
+  	}
+
 }
 
 
