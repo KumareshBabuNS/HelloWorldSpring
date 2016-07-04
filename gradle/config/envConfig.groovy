@@ -2,7 +2,7 @@ environments {
 
 dev {
 		server {
-			localHomeDir = '/usr/local/apache-tomcat-8.0.24-dev'
+			localHomeDir = '/usr/local/apache-tomcat-8.0.36-dev'
 			containerId = 'tomcat8x'
 			hostname = 'localhost'
 			port = 8091
@@ -13,7 +13,7 @@ dev {
 }
 qa {
 		server {
-			localHomeDir = '/usr/local/apache-tomcat-8.0.24-qa'
+			localHomeDir = '/usr/local/apache-tomcat-8.0.36-qa'
 			containerId = 'tomcat8x'
 			hostname = 'localhost'
 			port = 8092
@@ -24,7 +24,7 @@ qa {
 	}
 perf {
 		server {
-			localHomeDir = '/usr/local/apache-tomcat-8.0.24-perf'
+			localHomeDir = '/usr/local/apache-tomcat-8.0.36-perf'
 			containerId = 'tomcat8x'
 			hostname = 'localhost'
 			port = 8093
@@ -35,7 +35,7 @@ perf {
 	}
 stage {
 		server {
-			localHomeDir = '/usr/local/apache-tomcat-8.0.24-stage'
+			localHomeDir = '/usr/local/apache-tomcat-8.0.36-stage'
 			containerId = 'tomcat8x'
 			hostname = 'localhost'
 			port = 8094
@@ -46,7 +46,7 @@ stage {
 	}
 prod {
 		server {
-			localHomeDir = '/usr/local/apache-tomcat-8.0.24-prod'
+			localHomeDir = '/usr/local/apache-tomcat-8.0.36-prod'
 			containerId = 'tomcat8x'
 			hostname = 'localhost'
 			port = 8095
