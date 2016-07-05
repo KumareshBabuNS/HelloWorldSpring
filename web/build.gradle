@@ -147,7 +147,7 @@ project(':web') {
 
 	cargo {
 	    containerId = config.server.containerId
-	    port = config.server.port.toInteger()
+	    port = config.server.port
 
 	    deployable {
 	    	def fileName = appName+"-"+version
