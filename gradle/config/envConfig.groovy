@@ -1,5 +1,17 @@
 environments {
 
+test {
+		server {
+			localHomeDir = '/opt/tomcat8'
+			containerId = 'tomcat8x'
+			hostname = 'localhost'
+			port = 8080
+			context = appName
+			username = 'tomcat'
+			password = 's3cret'
+		}
+}
+
 dev {
 		server {
 			localHomeDir = '/usr/local/apache-tomcat-8.0.36-dev'
