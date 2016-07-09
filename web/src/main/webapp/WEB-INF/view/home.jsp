@@ -4,6 +4,6 @@
     <title>Sample Application</title>
   </head>
   <body>
-	<h1>Welcome to cloud demo, ${user.firstName} ${user.lastName}!</h1>
+	<h1>Welcome to demo, ${user.firstName} ${user.lastName}!</h1>
   </body>
 </html>
