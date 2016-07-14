@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Sample Application</title>
+    <title>VocaLink Demo</title>
   </head>
   <body>
-	<h1>Welcome to move to cloud demo, ${user.firstName} ${user.lastName}!</h1>
+	<h1>Welcome to Limerick, VocaLink!</h1>
   </body>
 </html>
