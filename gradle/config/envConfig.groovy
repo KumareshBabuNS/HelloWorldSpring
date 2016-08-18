@@ -4,7 +4,7 @@ test {
 		server {
 			localHomeDir = '/opt/tomcat8'
 			containerId = 'tomcat8x'
-			hostname = 'ec2-52-70-141-207.compute-1.amazonaws.com'
+			hostname = 'ec2-52-71-2-192.compute-1.amazonaws.com'
 			port = 8080
 			context = appName
 			username = 'tomcat'
